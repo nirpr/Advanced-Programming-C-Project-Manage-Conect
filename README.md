@@ -1,8 +1,13 @@
 # Advanced-Programming-C-Project-Manage-Conect
-Project - System for managing bands for concerts
+Project Description:
+The project aims to develop a system for efficiently planning concerts. It takes two input files: one containing information about instruments and another containing details of musicians. The program generates a sorted tree of instruments based on the first file and creates an array of musician details from the second file. By analyzing these data, the program determines if there are enough musicians with the required instruments available for a concert. If the conditions are met, it outputs the relevant concert details.
 
-The program is a system for planning concerts
-The program gets 2 files, first file is instruments, second file is Musicians.
-The program take the instrument file and make a tree of instrument sorted lexicographic
-and make from musicians files array with all the details about the musicians like his name, instruments
-get from the user requires for a concert and if there are resources (musicians) for the concert it print the details
+File Inputs:
+-Instruments: This file should contain a list of instruments.
+-Musicians: This file should include information about the musicians, such as their names and the instruments they can play.
+ 
+ Program Flow:
+-Read and process the instrument file to create a lexicographically sorted tree of instruments.
+-Parse the musician file to generate an array of musician details, including their names and the instruments they can play.
+-Analyze the musician data and check if there are sufficient resources (musicians) available for a concert.
+-If there are enough resources, print out the relevant concert details.
