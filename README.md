@@ -1,4 +1,4 @@
-# Advanced-Programming-C-Project-Manage-Conect
+# ConcertBandManager - Advanced Programming C Project
 Project Description:
 The project aims to develop a system for efficiently planning concerts. It takes two input files: one containing information about instruments and another containing details of musicians. The program generates a sorted tree of instruments based on the first file and creates an array of musician details from the second file. By analyzing these data, the program determines if there are enough musicians with the required instruments available for a concert. If the conditions are met, it outputs the relevant concert details.
 
